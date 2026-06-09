@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const newTask = createTask(title);
         tasksList.appendChild(newTask);
 
-        input.value = ''; // очищаем поле
+        input.value = '';
         input.focus();
     }
 
